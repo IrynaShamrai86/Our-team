@@ -1,0 +1,255 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $dark-gray;
+}
+
+.article {
+  padding: 50px;
+}
+
+h1 {
+  font-family: $title-font-family;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 66px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $gold;
+}
+
+h2 {
+  font-family: $title-font-family;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: capitalize;
+  color: $middle-gray;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: $base-font-family;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  color: $middle-gray;
+  margin-bottom: 30px;
+}
+
+.pseudotitle {
+  margin-bottom: 15px;
+  font-family: $base-font-family;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $light-gray;
+}
+
+.icon-holder-main {
+  display: block;
+  margin-bottom: 105px;
+  text-align: center;
+  color: $gold;
+
+  &:before,
+  &:after {
+    content: '';
+    background-color: $gold;
+    height: 1px;
+    width: 210px;
+    display: inline-block;
+    margin-bottom: 7px;
+  }
+
+  &:before {
+    margin-right: 6px;
+  }
+
+  &:after {
+    margin-left: 6px;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 195px;
+}
+
+.img-holder {
+  position: relative;
+}
+
+.img-holder-main {
+  position: relative;
+  padding: 15px;
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+  }
+
+  &:before {
+    left: 0;
+    border-bottom: 1px solid $gold;
+    border-left: 1px solid $gold;
+  }
+
+  &:after {
+    right: 0;
+    border-bottom: 1px solid $gold;
+    border-right: 1px solid $gold;
+  }
+
+  span {
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100px;
+
+    &.top-left {
+      left: 0;
+      border-top: 1px solid $gold;
+      border-left: 1px solid $gold;
+    }
+
+    &.top-right {
+      right: 0;
+      border-top: 1px solid $gold;
+      border-right: 1px solid $gold;
+    }
+  }
+}
+
+.photo {
+  position: relative;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+.vertical-border {
+  height: 560px;
+  width: 1px;
+  background-color: $gold;
+  margin: 0 85px;
+}
+
+.text-holder {
+  text-align: center;
+}
+
+p {
+  font-family: $base-font-family;
+  font-weight: 500;
+  font-size: $base-font-size;
+  line-height: 24px;
+  text-align: center;
+  color: $dark-gray;
+  margin-bottom: 20px;
+}
+
+.horizontal-border {
+  display: block;
+  height: 1px;
+  width: 100px;
+  background-color: $gold;
+  margin: 0 auto 30px;
+}
+
+.icons-holder {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 49px;
+}
+
+.social-holder {
+  color: $light-light-gray;
+  border: 2px solid $light-light-gray;
+  border-radius: 50%;
+  margin-bottom: 49px;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+
+  &:hover {
+    background-color: $gold;
+    opacity: 0.9;
+    color: $dark-gray;
+  }
+}
+
+.border {
+  display: block;
+  width: 20px;
+  height: 4px;
+  background-color: $gold;
+  text-align: center;
+  margin: 0 auto 25px;
+  position: relative;
+
+  &:before,
+  &:after {
+    content: '';
+    background-color: $gold;
+    width: 10px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    transform: translate(calc(-100% - 5px), -50%);
+    left: 0;
+  }
+
+  &:after {
+    transform: translate(calc(100% + 5px), -50%);
+    left: auto;
+    right: 0;
+  }
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  border: 2px solid $gold;
+  padding: 5px 10px;
+  font-family: $btn-font-family;
+  font-style: normal;
+  font-weight: 700;
+  font-size: $base-font-size;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: $middle-gray;
+
+  &:hover {
+    background-color: $gold;
+    color: $dark-gray;
+    border: 2px solid $light-light-gray;
+  }
+}

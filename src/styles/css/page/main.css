@@ -1,0 +1,412 @@
+@font-face {
+  font-family: "roboto";
+  src: url("../../../fonts/roboto-black-webfont.eot");
+  src: url("../../../fonts/roboto-black-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/roboto-black-webfont.woff2") format("woff2"), url("../../../fonts/roboto-black-webfont.woff") format("woff"), url("../../../fonts/roboto-black-webfont.ttf") format("truetype"), url("../../../fonts/roboto-black-webfont.svg#robotoblack") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../../../fonts/roboto-blackitalic-webfont.eot");
+  src: url("../../../fonts/roboto-blackitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/roboto-blackitalic-webfont.woff2") format("woff2"), url("../../../fonts/roboto-blackitalic-webfont.woff") format("woff"), url("../../../fonts/roboto-blackitalic-webfont.ttf") format("truetype"), url("../../../fonts/roboto-blackitalic-webfont.svg#robotoblack_italic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../../../fonts/roboto-bold-webfont.eot");
+  src: url("../../../fonts/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/roboto-bold-webfont.woff2") format("woff2"), url("../../../fonts/roboto-bold-webfont.woff") format("woff"), url("../../../fonts/roboto-bold-webfont.ttf") format("truetype"), url("../../../fonts/roboto-bold-webfont.svg#robotobold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../../../fonts/roboto-bolditalic-webfont.eot");
+  src: url("../../../fonts/roboto-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/roboto-bolditalic-webfont.woff2") format("woff2"), url("../../../fonts/roboto-bolditalic-webfont.woff") format("woff"), url("../../../fonts/roboto-bolditalic-webfont.ttf") format("truetype"), url("../../../fonts/roboto-bolditalic-webfont.svg#robotobold_italic") format("svg");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../../../fonts/roboto-italic-webfont.eot");
+  src: url("../../../fonts/roboto-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/roboto-italic-webfont.woff2") format("woff2"), url("../../../fonts/roboto-italic-webfont.woff") format("woff"), url("../../../fonts/roboto-italic-webfont.ttf") format("truetype"), url("../../../fonts/roboto-italic-webfont.svg#robotoitalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../../../fonts/roboto-light-webfont.eot");
+  src: url("../../../fonts/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/roboto-light-webfont.woff2") format("woff2"), url("../../../fonts/roboto-light-webfont.woff") format("woff"), url("../../../fonts/roboto-light-webfont.ttf") format("truetype"), url("../../../fonts/roboto-light-webfont.svg#robotolight") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../../../fonts/roboto-lightitalic-webfont.eot");
+  src: url("../../../fonts/roboto-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/roboto-lightitalic-webfont.woff2") format("woff2"), url("../../../fonts/roboto-lightitalic-webfont.woff") format("woff"), url("../../../fonts/roboto-lightitalic-webfont.ttf") format("truetype"), url("../../../fonts/roboto-lightitalic-webfont.svg#robotolight_italic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../../../fonts/roboto-medium-webfont.eot");
+  src: url("../../../fonts/roboto-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/roboto-medium-webfont.woff2") format("woff2"), url("../../../fonts/roboto-medium-webfont.woff") format("woff"), url("../../../fonts/roboto-medium-webfont.ttf") format("truetype"), url("../../../fonts/roboto-medium-webfont.svg#robotomedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../../../fonts/roboto-mediumitalic-webfont.eot");
+  src: url("../../../fonts/roboto-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/roboto-mediumitalic-webfont.woff2") format("woff2"), url("../../../fonts/roboto-mediumitalic-webfont.woff") format("woff"), url("../../../fonts/roboto-mediumitalic-webfont.ttf") format("truetype"), url("../../../fonts/roboto-mediumitalic-webfont.svg#robotomedium_italic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../../../fonts/roboto-regular-webfont.eot");
+  src: url("../../../fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/roboto-regular-webfont.woff2") format("woff2"), url("../../../fonts/roboto-regular-webfont.woff") format("woff"), url("../../../fonts/roboto-regular-webfont.ttf") format("truetype"), url("../../../fonts/roboto-regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../../../fonts/roboto-thin-webfont.eot");
+  src: url("../../../fonts/roboto-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/roboto-thin-webfont.woff2") format("woff2"), url("../../../fonts/roboto-thin-webfont.woff") format("woff"), url("../../../fonts/roboto-thin-webfont.ttf") format("truetype"), url("../../../fonts/roboto-thin-webfont.svg#robotothin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../../../fonts/roboto-thinitalic-webfont.eot");
+  src: url("../../../fonts/roboto-thinitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/roboto-thinitalic-webfont.woff2") format("woff2"), url("../../../fonts/roboto-thinitalic-webfont.woff") format("woff"), url("../../../fonts/roboto-thinitalic-webfont.ttf") format("truetype"), url("../../../fonts/roboto-thinitalic-webfont.svg#robotothin_italic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "raleway";
+  src: url("../../../fonts/raleway-italic-variablefont_wght-webfont.eot");
+  src: url("../../../fonts/raleway-italic-variablefont_wght-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/raleway-italic-variablefont_wght-webfont.woff2") format("woff2"), url("../../../fonts/raleway-italic-variablefont_wght-webfont.woff") format("woff"), url("../../../fonts/raleway-italic-variablefont_wght-webfont.ttf") format("truetype"), url("../../../fonts/raleway-italic-variablefont_wght-webfont.svg#ralewaythin_italic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "raleway";
+  src: url("../../../fonts/raleway-variablefont_wght-webfont.eot");
+  src: url("../../../fonts/raleway-variablefont_wght-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/raleway-variablefont_wght-webfont.woff2") format("woff2"), url("../../../fonts/raleway-variablefont_wght-webfont.woff") format("woff"), url("../../../fonts/raleway-variablefont_wght-webfont.ttf") format("truetype"), url("../../../fonts/raleway-variablefont_wght-webfont.svg#ralewaythin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "open_sans";
+  src: url("../../../fonts/opensans-italic-variablefont_wdthwght-webfont.eot");
+  src: url("../../../fonts/opensans-italic-variablefont_wdthwght-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans-italic-variablefont_wdthwght-webfont.woff2") format("woff2"), url("../../../fonts/opensans-italic-variablefont_wdthwght-webfont.woff") format("woff"), url("../../../fonts/opensans-italic-variablefont_wdthwght-webfont.ttf") format("truetype"), url("../../../fonts/opensans-italic-variablefont_wdthwght-webfont.svg#open_sansitalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "open_sans";
+  src: url("../../../fonts/opensans-variablefont_wdthwght-webfont.eot");
+  src: url("../../../fonts/opensans-variablefont_wdthwght-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/opensans-variablefont_wdthwght-webfont.woff2") format("woff2"), url("../../../fonts/opensans-variablefont_wdthwght-webfont.woff") format("woff"), url("../../../fonts/opensans-variablefont_wdthwght-webfont.ttf") format("truetype"), url("../../../fonts/opensans-variablefont_wdthwght-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "icomoon";
+  src: url("../../../icons/fonts/icomoon.eot?lz5rqz");
+  src: url("../../../icons/fonts/icomoon.eot?lz5rqz#iefix") format("embedded-opentype"), url("../../../icons/fonts/icomoon.ttf?lz5rqz") format("truetype"), url("../../../icons/fonts/icomoon.woff?lz5rqz") format("woff"), url("../../../icons/fonts/icomoon.svg?lz5rqz#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bonfire:before {
+  content: "\e900";
+}
+
+.icon-facebook:before {
+  content: "\e901";
+}
+
+.icon-google:before {
+  content: "\e902";
+}
+
+.icon-linkedin:before {
+  content: "\e903";
+}
+
+.icon-twitter:before {
+  content: "\e904";
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: #333333;
+}
+
+.article {
+  padding: 50px;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 66px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFCC00;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.pseudotitle {
+  margin-bottom: 15px;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #898F8F;
+}
+
+.icon-holder-main {
+  display: block;
+  margin-bottom: 105px;
+  text-align: center;
+  color: #FFCC00;
+}
+.icon-holder-main:before, .icon-holder-main:after {
+  content: "";
+  background-color: #FFCC00;
+  height: 1px;
+  width: 210px;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+.icon-holder-main:before {
+  margin-right: 6px;
+}
+.icon-holder-main:after {
+  margin-left: 6px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0 195px;
+}
+
+.img-holder {
+  position: relative;
+}
+
+.img-holder-main {
+  position: relative;
+  padding: 15px;
+}
+.img-holder-main:before, .img-holder-main:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+}
+.img-holder-main:before {
+  left: 0;
+  border-bottom: 1px solid #FFCC00;
+  border-left: 1px solid #FFCC00;
+}
+.img-holder-main:after {
+  right: 0;
+  border-bottom: 1px solid #FFCC00;
+  border-right: 1px solid #FFCC00;
+}
+.img-holder-main span {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100px;
+}
+.img-holder-main span.top-left {
+  left: 0;
+  border-top: 1px solid #FFCC00;
+  border-left: 1px solid #FFCC00;
+}
+.img-holder-main span.top-right {
+  right: 0;
+  border-top: 1px solid #FFCC00;
+  border-right: 1px solid #FFCC00;
+}
+
+.photo {
+  position: relative;
+}
+.photo:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.vertical-border {
+  height: 560px;
+  width: 1px;
+  background-color: #FFCC00;
+  margin: 0 85px;
+}
+
+.text-holder {
+  text-align: center;
+}
+
+p {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.horizontal-border {
+  display: block;
+  height: 1px;
+  width: 100px;
+  background-color: #FFCC00;
+  margin: 0 auto 30px;
+}
+
+.icons-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+  margin-bottom: 49px;
+}
+
+.social-holder {
+  color: #cccccc;
+  border: 2px solid #cccccc;
+  border-radius: 50%;
+  margin-bottom: 49px;
+  width: 45px;
+  height: 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.social-holder:hover {
+  background-color: #FFCC00;
+  opacity: 0.9;
+  color: #333333;
+}
+
+.border {
+  display: block;
+  width: 20px;
+  height: 4px;
+  background-color: #FFCC00;
+  text-align: center;
+  margin: 0 auto 25px;
+  position: relative;
+}
+.border:before, .border:after {
+  content: "";
+  background-color: #FFCC00;
+  width: 10px;
+  height: 4px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(calc(-100% - 5px), -50%);
+          transform: translate(calc(-100% - 5px), -50%);
+  left: 0;
+}
+.border:after {
+  -webkit-transform: translate(calc(100% + 5px), -50%);
+          transform: translate(calc(100% + 5px), -50%);
+  left: auto;
+  right: 0;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #FFCC00;
+  padding: 5px 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #666666;
+}
+.btn:hover {
+  background-color: #FFCC00;
+  color: #333333;
+  border: 2px solid #cccccc;
+}
+/*# sourceMappingURL=main.css.map */

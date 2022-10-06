@@ -1,0 +1,231 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-family: 'roboto';
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 66px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFCC00;
+}
+
+h2 {
+    font-family: 'roboto';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'raleway';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.pseudotitle {
+    margin-bottom: 15px;
+    font-family: 'raleway';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #898F8F;
+}
+
+.icon-holder-main {
+    display: block;
+    margin-bottom: 105px;
+    text-align: center;
+    color: #FFCC00;
+}
+
+.icon-holder-main:before,
+.icon-holder-main:after {
+    content: '';
+    background-color: #FFCC00;
+    height: 1px;
+    width: 210px;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.icon-holder-main:before {
+    margin-right: 6px;
+}
+
+.icon-holder-main:after {
+    margin-left: 6px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.img-holder-main {
+    position: relative;
+    padding: 15px;
+}
+
+.photo {
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-top: 1px solid #FFCC00;
+    border-left: 1px solid #FFCC00;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    border-top: 1px solid #FFCC00;
+    border-right: 1px solid #FFCC00;
+}
+
+.top-left:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #FFCC00;
+    border-left: 1px solid #FFCC00;
+}
+
+.top-right:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 1px solid #FFCC00;
+    border-left: 1px solid #FFCC00;
+}
+
+.img-holder {
+    margin: 0 100px 100px;
+    position: relative;
+}
+
+.vertical-border {
+    height: 560px;
+    width: 1px;
+    background-color: #FFCC00;
+}
+
+.text-holder {
+    margin: 0 85px;
+    text-align: center;
+}
+
+p {
+    font-family: 'raleway';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+    padding: 0 85px;
+}
+
+.horizontal-border {
+    display: block;
+    height: 1px;
+    width: 100px;
+    background-color: #FFCC00;
+    margin: 0 auto 30px;
+}
+
+.icons-holder {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 49px;
+}
+
+.social-holder {
+    color: #CCCCCC;
+    border: 2px solid #CCCCCC;
+    border-radius: 50%;
+    margin-bottom: 49px;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.border {
+    display: block;
+    width: 20px;
+    height: 4px;
+    background-color: #FFCC00;
+    text-align: center;
+    margin: 0 auto 25px;
+    position: relative;
+}
+
+.border:before,
+.border:after {
+    content: '';
+    background-color: #FFCC00;
+    width: 10px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    transform: translate(calc(-100% - 5px), -50%);
+    left: 0;
+}
+
+
+.border:after {
+    transform: translate(calc(100% + 5px), -50%);
+    left: auto;
+    right: 0;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #FFCC00;
+    padding: 5px 10px;
+    font-family: 'open_sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #666666;
+}
+
